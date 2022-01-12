@@ -1,0 +1,178 @@
+a.btn-flat {
+  overflow: hidden;
+  padding: 1.5rem 6rem;
+  color: #fff;
+  border-radius: 0;
+  background: #000;
+}
+
+a.flat1 span {
+  position: relative;
+}
+a.flat2 span {
+  position: relative;
+}
+a.flat3 span {
+  position: relative;
+}
+a.flat4 span {
+  position: relative;
+}
+a.flat1:before {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  width: 150%;
+  height: 500%;
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-70%) rotate(135deg);
+  transform: translateX(-98%) translateY(-70%) rotate(135deg);
+  background: #fff100;
+}
+a.flat2:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-96%);
+  transform: translateX(-96%);
+  background: #eb6877;
+}
+
+a.flat1:hover:before {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(135deg);
+  transform: translateX(-9%) translateY(-25%) rotate(135deg);
+}
+a.flat2:hover:before {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+a.flat3:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-96%);
+  transform: translateX(-96%);
+  background: #eb6877;
+}
+
+a.flat3:hover:before {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+a.flat4:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-80%) translateY(-25px);
+  transform: translateX(-80%) translateY(-25px);
+  border-radius: 50%;
+  background: #eb6100;
+}
+
+a.flat4:hover:before {
+  width: 400px;
+  height: 400px;
+  -webkit-transform: translateX(-1%) translateY(-175px);
+  transform: translateX(-1%) translateY(-175px);
+}
+a.flat5:before {
+  position: absolute;
+  top: 0;
+  left: calc(-150% + 50px);
+  width: 150%;
+  height: 500%;
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: rotate(45deg) translateX(0) translateY(0);
+  transform: rotate(45deg) translateX(0) translateY(0);
+
+  background: #fff100;
+}
+
+a.flat5:after {
+  position: absolute;
+  top: -400%;
+  right: calc(-150% + 50px);
+  width: 150%;
+  height: 500%;
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: rotate(45deg) translateX(0) translateY(0);
+  transform: rotate(45deg) translateX(0) translateY(0);
+  background: #fff100;
+}
+
+a.flat5:hover:before {
+  -webkit-transform: rotate(45deg) translateX(0) translateY(-50%);
+  transform: rotate(45deg) translateX(0) translateY(-50%);
+}
+
+a.flat5:hover:after {
+  -webkit-transform: rotate(45deg) translateX(0) translateY(50%);
+  transform: rotate(45deg) translateX(0) translateY(50%);
+}
+a.flat6:before {
+  position: absolute;
+  top: 0;
+  left: calc(-100% + 10px);
+  width: 100%;
+  height: 100%;
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0);
+  background: #094;
+}
+
+a.flat6:after {
+  position: absolute;
+  top: 0;
+  right: calc(-100% + 10px);
+  width: 100%;
+  height: 100%;
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0);
+  background: #094;
+}
+
+a.flat6:hover:before {
+  -webkit-transform: translateX(50%) translateY(0);
+  transform: translateX(50%) translateY(0);
+}
+
+a.flat6:hover:after {
+  -webkit-transform: translateX(-50%) translateY(0);
+  transform: translateX(-50%) translateY(0);
+}
+
+a.flat5 span {
+  position: relative;
+  z-index: 1;
+}
+a.flat6 span {
+  position: relative;
+  z-index: 1;
+}
